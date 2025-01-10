@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="cover_intro" path="1%20Zotero简介/cover_intro.html"/>
+   <appContext helpID="what_is_zotero" path="1%20Zotero简介/what_is_zotero.html"/>
+   <appContext helpID="functions_of_zotero"
+               path="1%20Zotero简介/functions%20of%20zotero.html"/>
+   <appContext helpID="topic_1_dnld_istll"
+               path="2下载与安装/dita文件/topic_1_dnld_istll.html"/>
+   <appContext helpID="download" path="2下载与安装/dita文件/download_win.html"/>
+   <appContext helpID="ts_download" path="2下载与安装/dita文件/download_ts.html"/>
+   <appContext helpID="download" path="2下载与安装/dita文件/download_mac.html"/>
+   <appContext helpID="ts_install_mac" path="2下载与安装/dita文件/install_ts_mac.html"/>
+   <appContext helpID="download" path="2下载与安装/dita文件/download_other_ver.html"/>
+   <appContext helpID="building_your_personal_liabrary"
+               path="4建立个人文献库/building_your_personal_liabrary.html"/>
+   <appContext helpID="creating_new_folders" path="4建立个人文献库/creating_new_folders.html"/>
+   <appContext helpID="classifying_documents_into_folders"
+               path="4建立个人文献库/classifying_documents_into_folders.html"/>
+   <appContext helpID="cover_add" path="5文献导入与删除/cover_add.html"/>
+   <appContext helpID="导入文献_0"
+               path="5文献导入与删除/文献导入与删除-Zotero/1%20导入文献/1-1%20本地导入文献/导入文献_0.html"/>
+   <appContext helpID="adding_items_to_zotero"
+               path="5文献导入与删除/文献导入与删除-Zotero/1%20导入文献/1-1%20本地导入文献/adding_items_to_zotero.html"/>
+   <appContext helpID="add_items_from_webpage"
+               path="5文献导入与删除/文献导入与删除-Zotero/1%20导入文献/1-2%20从网页导入文献/add_items_from_webpage.html"/>
+   <appContext helpID="add_item_by_isbn"
+               path="5文献导入与删除/文献导入与删除-Zotero/1%20导入文献/1-3%20通过ISBN导入/add_item_by_isbn.html"/>
+   <appContext helpID="delete_single_item"
+               path="5文献导入与删除/文献导入与删除-Zotero/2%20删除文献/delete_single_item.html"/>
+   <appContext helpID="download_browser_plug_in"
+               path="5文献导入与删除/文献导入与删除-Zotero/3%20浏览器插件安装/download_browser_plug_in.html"/>
+   <appContext helpID="cover_read" path="6文献阅读与引用/cover_read.html"/>
+   <appContext helpID="topic_crp_2cw_mdc" path="6文献阅读与引用/read.html"/>
+   <appContext helpID="zotero" path="6文献阅读与引用/zotero.html"/>
+   <appContext helpID="task_b1l_ltn_xdc" path="6文献阅读与引用/basi.html"/>
+   <appContext helpID="note" path="6文献阅读与引用/note.html"/>
+   <appContext helpID="tagad" path="6文献阅读与引用/tagad.html"/>
+   <appContext helpID="further_with_plugin" path="6文献阅读与引用/further_with_plugin.html"/>
+   <appContext helpID="trans_use" path="6文献阅读与引用/trans_use.html"/>
+   <appContext helpID="task_yfp_bqx_kdc" path="6文献阅读与引用/add_translationplugin.html"/>
+   <appContext helpID="task_py4_rt5_ldc" path="6文献阅读与引用/how%20to%20cite.html"/>
+   <appContext helpID="troubleshooting_cite_0"
+               path="6文献阅读与引用/troubleshooting_cite_0.html"/>
+   <appContext helpID="sync_cover" path="7文件同步与备份/sync_cover.html"/>
+   <appContext helpID="zotero" path="7文件同步与备份/注册与登录/Register.html"/>
+   <appContext helpID="Data_syncing" path="7文件同步与备份/同步/Data_syncing.html"/>
+   <appContext helpID="Locating_data" path="7文件同步与备份/备份/Locating_data.html"/>
+   <appContext helpID="unload" path="8卸载/cover_unload.html"/>
+   <appContext helpID="uninstall_windows"
+               path="8卸载/卸载（Windows）/Uninstall_windows.html"/>
+   <appContext helpID="unload_mac" path="8卸载/mac截图/unload_mac.html"/>
+</map>

@@ -1,0 +1,164 @@
+/*#
+@colors&{"titlesAccentColor":"#494949","labelsAccentColor":"#7b7a7a","linksAccentColor":"#2372de","backgroundAccentColor":"#dce5f2","isDefault":true}&colors@
+@info@STYLES BASKET SELECTIONS METADATA@info@
+@name&styles_basket&name@
+@aspects&wh-tiles,wh-breadcrumb-style-bold,wh-left-toc-underline-selection,wh-left-toc-thin-right-border,wh-right-toc-style-bar-selection,wh-menu-page-colors-white-color-black-bg,wh-search-component-colors-black,wh-search-component-padding-medium,wh-footer-background-color-black,wh-footer-padding-small,wh-right-toc-colors-links-for-selection-black-foreground,wh-left-toc-links-for-selection-black-foreground,wh-breadcrumb-colors-white-on-black,wh-tiles-themes-titles-colors-with-border-and-bg&aspects@
+@info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICATION CAN CAUSE UPLOADING ERRORS@info@
+@info@TIP: YOU CAN USE custom.css TO ADD CUSTOM SELECTORS.@info@
+#*/
+/* Bold selection in Publication TOC. WebHelp only. */
+@font-face{
+	font-family: PingFang-Regular;
+	src:url(resources/fonts/PingFang-Regular.ttf);
+}
+
+@font-face {
+	font-family: PingFang-Heavy;
+	src:url(resources/fonts/PingFang-Heavy.ttf);
+}
+
+@media screen {
+  .wh_publication_toc .active > .topicref a {
+    font-weight: bold;
+    font-family: PingFang-Regular;
+  }
+}
+
+body{
+  font-family: PingFang-Regular;
+}
+
+
+/*wh-tiles*/
+/*wh-tiles-themes-titles-colors-with-border-and-bg*/
+
+.wh_tile {
+  border-radius: .5em;
+  box-shadow: 0px 10px 45px -12px rgba(0, 0, 0, 0.3);
+  background-color:rgb(238, 237, 240);
+  color:black;
+}
+
+.wh_tile_title {
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: 700;
+}
+.wh_tile_title span {
+  display: block;
+  width: 100%;
+}
+.wh_tile_title a {
+  display: block;
+  width: 100%;
+  color: #000000;
+}
+.wh_tile_title a:visited {
+  color: #000000;
+}
+.wh_tile_shortdesc {
+  margin-top: 0.5em;
+  text-align: center;
+  color: #000000;
+}
+/*wh-breadcrumb-style-bold*/
+.wh_breadcrumb ol a {
+  font-weight: bold;
+}
+/*wh-breadcrumb-colors-white-on-black*/
+.wh_tools {
+  background-color: #000;
+}
+.wh_breadcrumb ol a {
+  color: #fff;
+}
+.wh_breadcrumb li:not(:last-of-type)::after {
+  color: #fff;
+}
+/*wh-left-toc-underline-selection*/
+.wh_publication_toc .active > .topicref a {
+  text-decoration: underline;
+}
+.wh_publication_toc .title a:hover {
+  text-decoration: underline;
+}
+/*wh-left-toc-thin-right-border*/
+.wh_publication_toc {
+  border-right: thin solid #000000;
+}
+/*wh-left-toc-links-for-selection-black-foreground*/
+.wh_publication_toc .title a {
+  color: #000;
+}
+.wh_publication_toc .active > .topicref a {
+  color: #b797da;
+}
+.wh_publication_title > a{
+  color:#b797da;
+  font-size: 2em;
+  font-weight:800;
+  font-family: PingFang-Heavy;
+}
+
+.wh_publication_toc .title a:hover {
+  text-decoration: underline;
+}
+/*wh-right-toc-style-bar-selection*/
+.wh_topic_toc .section-item .section-title a {
+  border-left: 3px solid transparent;
+  padding-left: 5px;
+}
+.wh_topic_toc .section-item .section-title a:hover {
+  border-left: 3px solid #b797da;
+}
+.wh_topic_toc .section-item .section-title .current_node {
+  border-left: 3px solid #b797da;
+  text-decoration: none;
+}
+/*wh-right-toc-colors-links-for-selection-black-foreground*/
+.wh_topic_toc .section-item .section-title a {
+  color: #000;
+}
+.wh_topic_toc .section-item .section-title a.current_node {
+  color: #b797da;
+}
+/*wh-menu-page-colors-white-color-black-bg*/
+.wh_header {
+  background-color: #000;
+}
+.wh_top_menu > ul > li a,
+.wh_indexterms_link a::before {
+  color: #fff;
+}
+.wh_indexterms_link a span {
+  display: none;
+}
+.wh_top_menu ul li:hover {
+  background-color: #404040;
+}
+.wh_top_menu ul ul {
+  background-color: #404040;
+}
+.wh_top_menu ul ul li {
+  border-top-color: #000;
+}
+.wh_top_menu ul ul li a:hover {
+  background: #000;
+}
+/*wh-search-component-colors-black*/
+.wh_search_button {
+  background-color: #000000;
+}
+/*wh-search-component-padding-medium*/
+.wh_search_input {
+  padding: 50px 0;
+}
+/*wh-footer-background-color-black*/
+.wh_footer {
+  background-color: #000000;
+}
+/*wh-footer-padding-small*/
+.wh_footer {
+  padding: 30px 0;
+}
+
